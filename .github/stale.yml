@@ -1,7 +1,7 @@
 # Number of days of inactivity before an issue becomes stale
-daysUntilStale: 90
+daysUntilStale: 1
 # Number of days of inactivity before a stale issue is closed
-daysUntilClose: 1
+daysUntilClose: 2
 # Issues with these labels will never be considered stale
 exemptLabels:
   - bug
@@ -12,4 +12,4 @@ staleLabel: wontfix
 markComment: >
   Hello. @jung-han. stale test
 # Comment to post when closing a stale issue. Set to `false` to disable
-closeComment: false
+closeComment: true
